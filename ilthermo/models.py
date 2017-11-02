@@ -135,14 +135,14 @@ class Molecule(Base):
         self.fit = json.dumps(json_dict)
         session.commit()
 
-    def get_density(self, T):
+    def get_density(self, T=298):
         try:
             json_dict = json.loads(self.fit)
         except:
             return None
 
         a, b, c, Tmin, Tmax = json_dict['density']
-        if T < Tmin or T > Tmax:
+        if T < Tmin - 3 or T > Tmax + 3:
             return None
 
         return a * T * T + b * T + c

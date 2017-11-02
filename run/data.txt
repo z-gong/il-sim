@@ -1,125 +1,160 @@
-#molid	cation	anion	T300	T350
-3	CCC[N+]1(C)CCCC1	FS(=O)(=O)[N-]S(=O)(=O)F	1337	1298
-5	CCCCCC[n+]1ccccc1	FS(=O)(=O)[N-]S(=O)(=O)F	1300	1261
-6	CC[n+]1cccc(c1)C	FS(=O)(=O)[N-]S(=O)(=O)F	1406	1363
-7	CCn1cc[n+](c1)C	FS(=O)(=O)[N-]S(=O)(=O)F	1440	1395
-8	CC[n+]1ccccc1	FS(=O)(=O)[N-]S(=O)(=O)F	1457	1413
-9	CCCC[n+]1ccccc1	FS(=O)(=O)[N-]S(=O)(=O)F	1368	1327
-11	CCCC[N+]1(C)CCCC1	FS(=O)(=O)[N-]S(=O)(=O)F	1305	1267
-17	CCCCn1cc[n+](c1)C	F[P-](F)(F)(F)(F)F	1348	1305
-18	CCCCn1cc[n+](c1)C	[O-]C(=O)C(F)(F)F	1214	1180
-19	CCCCn1cc[n+](c1)C	FC(S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F)(F)F	1419	1372
-20	CCCCn1cc[n+](c1)C	[O-][N+](=O)[O-]	1154	1121
-21	CCCCn1cc[n+](c1)C	F[B-](F)(F)F	1194	1157
-22	CCCCn1cc[n+](c1)C	[I-]	1470	1440
-25	CCCCn1cc[n+](c1)C	[O-]C(=O)C	1051	1021
-26	CCCCn1cc[n+](c1)C	N#C[N-]C#N	1051	1030
-27	CCCCn1cc[n+](c1)C	[Cl-]	1079	1054
-30	CCCCn1cc[n+](c1)C	FC(S(=O)(=O)[O-])(F)F	1298	1258
-34	CCCCn1cc[n+](c1)C	[S-]C#N	1052	1042
-37	CCCCn1cc[n+](c1)C	N#C[B-](C#N)(C#N)C#N	1008	972
-38	CCCCn1cc[n+](c1)C	[O-][Cl](=O)(=O)=O	1254	1220
-41	CCCCn1cc[n+](c1)C	[O-]c1ccccc1	1215	1179
-49	CCCCn1cc[n+](c1)C	[O-]S(=O)(=O)C	None	1140
-76	CCC[N+]1(C)CCCC1	FC(S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F)(F)F	1426	1382
-89	CCCCCC[n+]1ccccc1	F[B-](F)(F)F	1153	1119
-101	CCn1cc[n+](c1)C	N#C[C-](C#N)C#N	1080	1046
-112	CC[n+]1ccccc1	FC(S(=O)(=O)[O-])(F)F	1403	1362
-118	CCCC[n+]1ccccc1	F[B-](F)(F)F	1213	1178
-120	CCCC[n+]1ccccc1	FC(S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F)(F)F	1448	1401
-126	CCCC[N+]1(C)CCCC1	FC(S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F)(F)F	1394	1351
-127	CCCC[N+]1(C)CCCC1	N#C[B-](C#N)(C#N)C#N	975	941
-129	CCCC[N+]1(C)CCCC1	FC(S(=O)(=O)[O-])(F)F	1251	1215
-131	CCCC[N+]1(C)CCCC1	N#C[C-](C#N)C#N	1006	976
-132	CCCC[N+]1(C)CCCC1	[O-]C(=O)C(F)(F)F	1171	1137
-133	CCCC[N+]1(C)CCCC1	[O-]C(=O)C	1020	991
-134	CCCC[N+]1(C)CCCC1	[S-]C#N	1026	1001
-172	OCC[N+](C)(C)C	FC(S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F)(F)F	None	1480
-345	CCCCCCn1cc[n+](c1)C	F[P-](F)(F)(F)(F)F	1291	1251
-349	CCCCn1cc[n+](c1C)C	F[P-](F)(F)(F)(F)F	None	1309
-353	CCCCCCC[n+]1ccn(c1)C	F[P-](F)(F)(F)(F)F	1262	1223
-354	CCCCCn1cc[n+](c1)C	F[P-](F)(F)(F)(F)F	1326	1287
-358	CCCn1cc[n+](c1)C	F[P-](F)(F)(F)(F)F	None	1371
-361	CCCC[n+]1cccc(c1)C	F[P-](F)(F)(F)(F)F	None	1300
-384	CCn1cc[n+](c1)C	[O-]C(=O)C(F)(F)F	1292	1260
-391	CCn1cc[n+](c1)C	FC(S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F)(F)F	1507	1458
-392	CCCCCCn1cc[n+](c1)C	FC(S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F)(F)F	1363	1317
-394	CCCCCn1cc[n+](c1)C	FC(S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F)(F)F	1401	1356
-395	CCCn1cc[n+](c1)C	FC(S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F)(F)F	1473	1425
-397	CCCCCCCCCCn1cc[n+](c1)C	FC(S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F)(F)F	1275	1234
-399	CCCCCCC[n+]1ccn(c1)C	FC(S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F)(F)F	1343	1299
-402	CCCC[n+]1cccc(c1)C	FC(S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F)(F)F	1416	1367
-403	CCCC[n+]1ccc(cc1)C	FC(S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F)(F)F	1412	1366
-410	CCCCCCCC[P+](CC)(CC)CC	FC(S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F)(F)F	1243	1203
-468	CCC[n+]1ncn(c1)C	[O-][N+](=O)[O-]	1236	1204
-469	CCCCCCn1cc[n+](c1)C	[O-][N+](=O)[O-]	1111	1085
-499	CCCCCCCCn1cc[n+](c1)C	F[B-](F)(F)F	1102	1069
-500	CCn1cc[n+](c1)C	F[B-](F)(F)F	1281	1242
-501	CCCCCCn1cc[n+](c1)C	F[B-](F)(F)F	1145	1110
-502	CCCC[n+]1ccc(cc1)C	F[B-](F)(F)F	1182	1154
-503	CCCC[n+]1cccc(c1)C	F[B-](F)(F)F	1181	1147
-509	CCCCCCCCCCn1cc[n+](c1)C	F[B-](F)(F)F	1068	1037
-511	CCCCCCC[n+]1ccn(c1)C	F[B-](F)(F)F	1121	1088
-513	CCCn1cc[n+](c1)C	F[B-](F)(F)F	1236	1201
-516	COCC[N+](CC)(CC)C	F[B-](F)(F)F	1179	1143
-517	CCCCn1cc[n+](c1C)C	F[B-](F)(F)F	1191	1158
-520	CCC[n+]1ncn(c1)C	F[B-](F)(F)F	1290	1252
-525	Cn1c[nH+]cc1	F[B-](F)(F)F	1383	1342
-560	CCCn1cc[n+](c1)C	[I-]	1546	1504
-561	CCCCCCn1cc[n+](c1)C	[I-]	1355	1324
-575	CCn1cc[n+](c1)C	Cc1ccc(cc1)S(=O)(=O)[O-]	1221	1192
-577	CCC[n+]1ncn(c1)C	Cc1ccc(cc1)S(=O)(=O)[O-]	1223	1190
-585	CCCn1cc[n+](c1)C	[Br-]	1330	1324
-589	CCCCCC[n+]1ccn(c1)CCC#N	[Br-]	1229	1195
-645	CCn1cc[n+](c1)C	[O-]C(=O)C	1099	1069
-665	CCCC[n+]1cccc(c1)C	N#C[N-]C#N	1048	1017
-666	CCn1cc[n+](c1)C	N#C[N-]C#N	1102	1071
-667	CCCCCCn1cc[n+](c1)C	N#C[N-]C#N	1027	998
-691	CCCCCCCCn1cc[n+](c1)C	[Cl-]	1009	981
-692	CCn1cc[n+](c1)C	[Cl-]	1175	1113
-693	CCCCCCn1cc[n+](c1)C	[Cl-]	1039	1011
-749	CCn1cc[n+](c1)C	FC(S(=O)(=O)[O-])(F)F	1383	1339
-750	CCCCCCn1cc[n+](c1)C	FC(S(=O)(=O)[O-])(F)F	1237	1200
-751	CCCC[n+]1cccc(c1)C	FC(S(=O)(=O)[O-])(F)F	1282	1236
-755	CCCCCC[n+]1ccn(c1)CCC#N	FC(S(=O)(=O)[O-])(F)F	1284	1248
-756	CCC[n+]1ncn(c1)C	FC(S(=O)(=O)[O-])(F)F	1377	1337
-778	CCCC[n+]1ccc(cc1)C	N#C[C-](C#N)C#N	1035	1003
-780	CCCCCCCCn1cc[n+](c1)C	N#C[C-](C#N)C#N	999	968
-782	CCCC[n+]1cccc(c1)C	N#C[C-](C#N)C#N	1041	1009
-786	CCn1cc[n+](c1)C	[S-]C#N	1115	1086
-787	CCCC[n+]1ccc(cc1)C	[S-]C#N	1060	1032
-791	Cn1cc[n+](c1)C	[S-]C#N	1156	1125
-833	CCn1cc[n+](c1)C	N#C[B-](C#N)(C#N)C#N	1034	995
-834	CCCCCCn1cc[n+](c1)C	N#C[B-](C#N)(C#N)C#N	989	954
-835	CCCCCCCCn1cc[n+](c1)C	N#C[B-](C#N)(C#N)C#N	974	940
-860	CCCCCCCCCCn1cc[n+](c1)C	[O-]c1ccccc1	1078	1044
-861	CCCCCCCCn1cc[n+](c1)C	[O-]c1ccccc1	1128	1094
-862	CCCCCCn1cc[n+](c1)C	[O-]c1ccccc1	1160	1125
-863	CCn1cc[n+](c1)C	[O-]c1ccccc1	1277	1242
-868	CCn1cc[n+](c1)C	[O-]C(=O)C(O)C	1163	1106
-871	OCC[N+](C)(C)C	[O-]C(=O)C(N)C	1112	1083
-888	CCn1cc[n+](c1)C	[O-]S(=O)(=O)C	1241	1207
-903	OCC[N+](C)(C)C	[O-]C(=O)C(CO)N	1190	1161
-904	CCCC[P+](CCCC)(CCCC)CCCC	[O-]C(=O)C(CO)N	991	961
-914	OCC[N+](C)(C)C	[O-]C(=O)CCC	1045	1016
-929	CCn1cc[n+](c1)C	[O-]C(=O)C(N)C	1128	1097
-930	CCCCCCCCn1cc[n+](c1)C	[O-]C(=O)C(N)C	983	967
-969	COCC[N+](CC)(CC)C	FC(S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F)(F)F	1406	1360
-970	Cn1cc[n+](c1)C	FC(S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F)(F)F	1568	1516
-996	CCC[n+]1ncn(c1)C	FC(S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F)(F)F	1511	1461
-1001	CCC[n+]1ccccc1	FC(S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F)(F)F	None	1439
-1087	COCC[N+](CC)(CC)C	FC([B-](F)(F)F)(F)F	1234	1195
-1088	Cn1cc[n+](c1)C	COS(=O)(=O)[O-]	1327	1293
-1089	CCn1cc[n+](c1)C	COS(=O)(=O)[O-]	1283	1251
-1141	CCCCCCn1cc[n+](c1)C	[n-]1ccnn1	1041	1010
-1154	CCCCCCn1cc[n+](c1)C	[O-][N+](=O)c1cn[n-]c1	1122	1090
-1162	CCCn1cc[n+](c1C)C	[O-][N+](=O)c1cn[n-]c1	1181	1149
-1172	CCCCCCCC[P+](CC)(CC)CC	[O-][N+](=O)c1cn[n-]c1	1030	1000
-1226	CCCCn1cc[n+](c1)C	COS(=O)(=O)[O-]	1208	1170
-1229	CCCCCCn1cc[n+](c1)C	COS(=O)(=O)[O-]	1183	1129
-1230	CCCCCCCCn1cc[n+](c1)C	COS(=O)(=O)[O-]	1120	1089
-1239	CCn1cc[n+](c1)C	CCOS(=O)(=O)[O-]	1236	1203
-1277	CCn1cc[n+](c1)C	[O-]S(=O)(=O)O	1365	1335
-1279	CCCCn1cc[n+](c1)C	[O-]S(=O)(=O)O	1251	1221
-1286	Cn1c[nH+]cc1	[O-]S(=O)(=O)O	1458	1426
-1322	CCCCCC[n+]1ccn(c1)CCC#N	CCCCCCCCCCCCOS(=O)(=O)[O-]	1097	1065
+#molid	SMILES	T	P	Density	wDensity	Hvap	wHvap	cation	anion
+3	CCC[N+]1(C)CCCC1.FS(=O)(=O)[N-]S(=O)(=O)F	298	1	1.339	1	0	0	CCC[N+]1(C)CCCC1	FS(=O)(=O)[N-]S(=O)(=O)F
+5	CCCCCC[n+]1ccccc1.FS(=O)(=O)[N-]S(=O)(=O)F	298	1	1.302	1	0	0	CCCCCC[n+]1ccccc1	FS(=O)(=O)[N-]S(=O)(=O)F
+6	CC[n+]1cccc(c1)C.FS(=O)(=O)[N-]S(=O)(=O)F	298	1	1.407	1	0	0	CC[n+]1cccc(c1)C	FS(=O)(=O)[N-]S(=O)(=O)F
+7	CCn1cc[n+](c1)C.FS(=O)(=O)[N-]S(=O)(=O)F	298	1	1.442	1	0	0	CCn1cc[n+](c1)C	FS(=O)(=O)[N-]S(=O)(=O)F
+8	CC[n+]1ccccc1.FS(=O)(=O)[N-]S(=O)(=O)F	298	1	1.459	1	0	0	CC[n+]1ccccc1	FS(=O)(=O)[N-]S(=O)(=O)F
+9	CCCC[n+]1ccccc1.FS(=O)(=O)[N-]S(=O)(=O)F	298	1	1.370	1	0	0	CCCC[n+]1ccccc1	FS(=O)(=O)[N-]S(=O)(=O)F
+11	CCCC[N+]1(C)CCCC1.FS(=O)(=O)[N-]S(=O)(=O)F	298	1	1.307	1	0	0	CCCC[N+]1(C)CCCC1	FS(=O)(=O)[N-]S(=O)(=O)F
+17	CCCCn1cc[n+](c1)C.F[P-](F)(F)(F)(F)F	298	1	1.350	1	0	0	CCCCn1cc[n+](c1)C	F[P-](F)(F)(F)(F)F
+18	CCCCn1cc[n+](c1)C.[O-]C(=O)C(F)(F)F	298	1	1.216	1	0	0	CCCCn1cc[n+](c1)C	[O-]C(=O)C(F)(F)F
+19	CCCCn1cc[n+](c1)C.FC(S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F)(F)F	298	1	1.421	1	0	0	CCCCn1cc[n+](c1)C	FC(S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F)(F)F
+20	CCCCn1cc[n+](c1)C.[O-][N+](=O)[O-]	298	1	1.156	1	0	0	CCCCn1cc[n+](c1)C	[O-][N+](=O)[O-]
+21	CCCCn1cc[n+](c1)C.F[B-](F)(F)F	298	1	1.196	1	0	0	CCCCn1cc[n+](c1)C	F[B-](F)(F)F
+22	CCCCn1cc[n+](c1)C.[I-]	298	1	1.472	1	0	0	CCCCn1cc[n+](c1)C	[I-]
+24	CCCCn1cc[n+](c1)C.[Br-]	298	1	1.284	1	0	0	CCCCn1cc[n+](c1)C	[Br-]
+25	CCCCn1cc[n+](c1)C.[O-]C(=O)C	298	1	1.052	1	0	0	CCCCn1cc[n+](c1)C	[O-]C(=O)C
+26	CCCCn1cc[n+](c1)C.N#C[N-]C#N	298	1	1.051	1	0	0	CCCCn1cc[n+](c1)C	N#C[N-]C#N
+27	CCCCn1cc[n+](c1)C.[Cl-]	298	1	1.081	1	0	0	CCCCn1cc[n+](c1)C	[Cl-]
+30	CCCCn1cc[n+](c1)C.FC(S(=O)(=O)[O-])(F)F	298	1	1.299	1	0	0	CCCCn1cc[n+](c1)C	FC(S(=O)(=O)[O-])(F)F
+34	CCCCn1cc[n+](c1)C.[S-]C#N	298	1	1.052	1	0	0	CCCCn1cc[n+](c1)C	[S-]C#N
+37	CCCCn1cc[n+](c1)C.N#C[B-](C#N)(C#N)C#N	298	1	1.010	1	0	0	CCCCn1cc[n+](c1)C	N#C[B-](C#N)(C#N)C#N
+38	CCCCn1cc[n+](c1)C.[O-][Cl](=O)(=O)=O	298	1	1.255	1	0	0	CCCCn1cc[n+](c1)C	[O-][Cl](=O)(=O)=O
+41	CCCCn1cc[n+](c1)C.[O-]c1ccccc1	298	1	1.216	1	0	0	CCCCn1cc[n+](c1)C	[O-]c1ccccc1
+51	CCCCn1cc[n+](c1)C.[O-]C=O	298	1	1.073	1	0	0	CCCCn1cc[n+](c1)C	[O-]C=O
+52	CCCCn1cc[n+](c1)C.[O-]C(=O)CCC	298	1	1.032	1	0	0	CCCCn1cc[n+](c1)C	[O-]C(=O)CCC
+54	CCCCn1cc[n+](c1)C.[O-]C(=O)C(O)C	298	1	1.100	1	0	0	CCCCn1cc[n+](c1)C	[O-]C(=O)C(O)C
+76	CCC[N+]1(C)CCCC1.FC(S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F)(F)F	298	1	1.428	1	0	0	CCC[N+]1(C)CCCC1	FC(S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F)(F)F
+77	CCC[N+]1(C)CCCC1.[Br-]	298	1	1.260	1	0	0	CCC[N+]1(C)CCCC1	[Br-]
+89	CCCCCC[n+]1ccccc1.F[B-](F)(F)F	298	1	1.154	1	0	0	CCCCCC[n+]1ccccc1	F[B-](F)(F)F
+97	CC[n+]1cccc(c1)C.FC(S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F)(F)F	298	1	1.489	1	0	0	CC[n+]1cccc(c1)C	FC(S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F)(F)F
+101	CCn1cc[n+](c1)C.N#C[C-](C#N)C#N	298	1	1.081	1	0	0	CCn1cc[n+](c1)C	N#C[C-](C#N)C#N
+111	CC[n+]1ccccc1.FC(S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F)(F)F	298	1	1.536	1	0	0	CC[n+]1ccccc1	FC(S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F)(F)F
+112	CC[n+]1ccccc1.FC(S(=O)(=O)[O-])(F)F	298	1	1.405	1	0	0	CC[n+]1ccccc1	FC(S(=O)(=O)[O-])(F)F
+114	CC[n+]1ccccc1.N#C[N-]C#N	298	1	1.119	1	0	0	CC[n+]1ccccc1	N#C[N-]C#N
+118	CCCC[n+]1ccccc1.F[B-](F)(F)F	298	1	1.214	1	0	0	CCCC[n+]1ccccc1	F[B-](F)(F)F
+119	CCCC[n+]1ccccc1.FC(S(=O)(=O)[O-])(F)F	298	1	1.315	1	0	0	CCCC[n+]1ccccc1	FC(S(=O)(=O)[O-])(F)F
+120	CCCC[n+]1ccccc1.FC(S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F)(F)F	298	1	1.450	1	0	0	CCCC[n+]1ccccc1	FC(S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F)(F)F
+121	CCCC[n+]1ccccc1.[O-][N+](=O)[O-]	298	1	1.189	1	0	0	CCCC[n+]1ccccc1	[O-][N+](=O)[O-]
+124	CCCC[n+]1ccccc1.N#C[N-]C#N	298	1	1.069	1	0	0	CCCC[n+]1ccccc1	N#C[N-]C#N
+126	CCCC[N+]1(C)CCCC1.FC(S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F)(F)F	298	1	1.396	1	0	0	CCCC[N+]1(C)CCCC1	FC(S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F)(F)F
+127	CCCC[N+]1(C)CCCC1.N#C[B-](C#N)(C#N)C#N	298	1	0.976	1	0	0	CCCC[N+]1(C)CCCC1	N#C[B-](C#N)(C#N)C#N
+129	CCCC[N+]1(C)CCCC1.FC(S(=O)(=O)[O-])(F)F	298	1	1.253	1	0	0	CCCC[N+]1(C)CCCC1	FC(S(=O)(=O)[O-])(F)F
+130	CCCC[N+]1(C)CCCC1.N#C[N-]C#N	298	1	1.014	1	0	0	CCCC[N+]1(C)CCCC1	N#C[N-]C#N
+131	CCCC[N+]1(C)CCCC1.N#C[C-](C#N)C#N	298	1	1.007	1	0	0	CCCC[N+]1(C)CCCC1	N#C[C-](C#N)C#N
+132	CCCC[N+]1(C)CCCC1.[O-]C(=O)C(F)(F)F	298	1	1.172	1	0	0	CCCC[N+]1(C)CCCC1	[O-]C(=O)C(F)(F)F
+133	CCCC[N+]1(C)CCCC1.[O-]C(=O)C	298	1	1.021	1	0	0	CCCC[N+]1(C)CCCC1	[O-]C(=O)C
+134	CCCC[N+]1(C)CCCC1.[S-]C#N	298	1	1.028	1	0	0	CCCC[N+]1(C)CCCC1	[S-]C#N
+135	CCCC[N+]1(C)CCCC1.[Br-]	298	1	1.221	1	0	0	CCCC[N+]1(C)CCCC1	[Br-]
+154	CC[NH3+].[O-][N+](=O)[O-]	298	1	1.030	1	0	0	CC[NH3+]	[O-][N+](=O)[O-]
+345	CCCCCCn1cc[n+](c1)C.F[P-](F)(F)(F)(F)F	298	1	1.293	1	0	0	CCCCCCn1cc[n+](c1)C	F[P-](F)(F)(F)(F)F
+353	CCCCCCC[n+]1ccn(c1)C.F[P-](F)(F)(F)(F)F	298	1	1.264	1	0	0	CCCCCCC[n+]1ccn(c1)C	F[P-](F)(F)(F)(F)F
+354	CCCCCn1cc[n+](c1)C.F[P-](F)(F)(F)(F)F	298	1	1.328	1	0	0	CCCCCn1cc[n+](c1)C	F[P-](F)(F)(F)(F)F
+384	CCn1cc[n+](c1)C.[O-]C(=O)C(F)(F)F	298	1	1.294	1	0	0	CCn1cc[n+](c1)C	[O-]C(=O)C(F)(F)F
+386	CCCCCCn1cc[n+](c1)C.[O-]C(=O)C(F)(F)F	298	1	1.150	1	0	0	CCCCCCn1cc[n+](c1)C	[O-]C(=O)C(F)(F)F
+391	CCn1cc[n+](c1)C.FC(S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F)(F)F	298	1	1.509	1	0	0	CCn1cc[n+](c1)C	FC(S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F)(F)F
+392	CCCCCCn1cc[n+](c1)C.FC(S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F)(F)F	298	1	1.365	1	0	0	CCCCCCn1cc[n+](c1)C	FC(S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F)(F)F
+394	CCCCCn1cc[n+](c1)C.FC(S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F)(F)F	298	1	1.403	1	0	0	CCCCCn1cc[n+](c1)C	FC(S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F)(F)F
+395	CCCn1cc[n+](c1)C.FC(S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F)(F)F	298	1	1.475	1	0	0	CCCn1cc[n+](c1)C	FC(S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F)(F)F
+397	CCCCCCCCCCn1cc[n+](c1)C.FC(S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F)(F)F	298	1	1.277	1	0	0	CCCCCCCCCCn1cc[n+](c1)C	FC(S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F)(F)F
+399	CCCCCCC[n+]1ccn(c1)C.FC(S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F)(F)F	298	1	1.345	1	0	0	CCCCCCC[n+]1ccn(c1)C	FC(S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F)(F)F
+402	CCCC[n+]1cccc(c1)C.FC(S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F)(F)F	298	1	1.418	1	0	0	CCCC[n+]1cccc(c1)C	FC(S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F)(F)F
+403	CCCC[n+]1ccc(cc1)C.FC(S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F)(F)F	298	1	1.413	1	0	0	CCCC[n+]1ccc(cc1)C	FC(S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F)(F)F
+410	CCCCCCCC[P+](CC)(CC)CC.FC(S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F)(F)F	298	1	1.244	1	0	0	CCCCCCCC[P+](CC)(CC)CC	FC(S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F)(F)F
+412	CCCn1cc[n+](c1C)C.FC(S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F)(F)F	298	1	1.459	1	0	0	CCCn1cc[n+](c1C)C	FC(S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F)(F)F
+413	CCCCCC[n+]1cccc(c1)C.FC(S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F)(F)F	298	1	1.359	1	0	0	CCCCCC[n+]1cccc(c1)C	FC(S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F)(F)F
+467	CCCCCCCCn1cc[n+](c1)C.[O-][N+](=O)[O-]	298	1	1.064	1	0	0	CCCCCCCCn1cc[n+](c1)C	[O-][N+](=O)[O-]
+468	CCC[n+]1ncn(c1)C.[O-][N+](=O)[O-]	298	1	1.237	1	0	0	CCC[n+]1ncn(c1)C	[O-][N+](=O)[O-]
+469	CCCCCCn1cc[n+](c1)C.[O-][N+](=O)[O-]	298	1	1.112	1	0	0	CCCCCCn1cc[n+](c1)C	[O-][N+](=O)[O-]
+499	CCCCCCCCn1cc[n+](c1)C.F[B-](F)(F)F	298	1	1.104	1	0	0	CCCCCCCCn1cc[n+](c1)C	F[B-](F)(F)F
+500	CCn1cc[n+](c1)C.F[B-](F)(F)F	298	1	1.283	1	0	0	CCn1cc[n+](c1)C	F[B-](F)(F)F
+501	CCCCCCn1cc[n+](c1)C.F[B-](F)(F)F	298	1	1.146	1	0	0	CCCCCCn1cc[n+](c1)C	F[B-](F)(F)F
+502	CCCC[n+]1ccc(cc1)C.F[B-](F)(F)F	298	1	1.183	1	0	0	CCCC[n+]1ccc(cc1)C	F[B-](F)(F)F
+503	CCCC[n+]1cccc(c1)C.F[B-](F)(F)F	298	1	1.182	1	0	0	CCCC[n+]1cccc(c1)C	F[B-](F)(F)F
+506	CCC[n+]1ccccc1.F[B-](F)(F)F	298	1	1.253	1	0	0	CCC[n+]1ccccc1	F[B-](F)(F)F
+509	CCCCCCCCCCn1cc[n+](c1)C.F[B-](F)(F)F	298	1	1.069	1	0	0	CCCCCCCCCCn1cc[n+](c1)C	F[B-](F)(F)F
+511	CCCCCCC[n+]1ccn(c1)C.F[B-](F)(F)F	298	1	1.123	1	0	0	CCCCCCC[n+]1ccn(c1)C	F[B-](F)(F)F
+513	CCCn1cc[n+](c1)C.F[B-](F)(F)F	298	1	1.238	1	0	0	CCCn1cc[n+](c1)C	F[B-](F)(F)F
+516	COCC[N+](CC)(CC)C.F[B-](F)(F)F	298	1	1.180	1	0	0	COCC[N+](CC)(CC)C	F[B-](F)(F)F
+517	CCCCn1cc[n+](c1C)C.F[B-](F)(F)F	298	1	1.193	1	0	0	CCCCn1cc[n+](c1C)C	F[B-](F)(F)F
+520	CCC[n+]1ncn(c1)C.F[B-](F)(F)F	298	1	1.291	1	0	0	CCC[n+]1ncn(c1)C	F[B-](F)(F)F
+524	CCCn1cc[n+](c1C)C.F[B-](F)(F)F	298	1	1.225	1	0	0	CCCn1cc[n+](c1C)C	F[B-](F)(F)F
+525	Cn1c[nH+]cc1.F[B-](F)(F)F	298	1	1.384	1	0	0	Cn1c[nH+]cc1	F[B-](F)(F)F
+560	CCCn1cc[n+](c1)C.[I-]	298	1	1.547	1	0	0	CCCn1cc[n+](c1)C	[I-]
+561	CCCCCCn1cc[n+](c1)C.[I-]	298	1	1.356	1	0	0	CCCCCCn1cc[n+](c1)C	[I-]
+575	CCn1cc[n+](c1)C.Cc1ccc(cc1)S(=O)(=O)[O-]	298	1	1.222	1	0	0	CCn1cc[n+](c1)C	Cc1ccc(cc1)S(=O)(=O)[O-]
+577	CCC[n+]1ncn(c1)C.Cc1ccc(cc1)S(=O)(=O)[O-]	298	1	1.225	1	0	0	CCC[n+]1ncn(c1)C	Cc1ccc(cc1)S(=O)(=O)[O-]
+585	CCCn1cc[n+](c1)C.[Br-]	298	1	1.328	1	0	0	CCCn1cc[n+](c1)C	[Br-]
+589	CCCCCC[n+]1ccn(c1)CCC#N.[Br-]	298	1	1.230	1	0	0	CCCCCC[n+]1ccn(c1)CCC#N	[Br-]
+592	CCCCCCC[n+]1ccn(c1)C.[Br-]	298	1	1.246	1	0	0	CCCCCCC[n+]1ccn(c1)C	[Br-]
+597	CCCCCCCCn1cc[n+](c1)C.[Br-]	298	1	1.174	1	0	0	CCCCCCCCn1cc[n+](c1)C	[Br-]
+645	CCn1cc[n+](c1)C.[O-]C(=O)C	298	1	1.100	1	0	0	CCn1cc[n+](c1)C	[O-]C(=O)C
+651	Cn1c[nH+]cc1.[O-]C(=O)C	298	1	1.120	1	0	0	Cn1c[nH+]cc1	[O-]C(=O)C
+652	Cn1cc[n+](c1)C.[O-]C(=O)C	298	1	1.129	1	0	0	Cn1cc[n+](c1)C	[O-]C(=O)C
+654	C[NH+]1CCCC1=O.[O-]C(=O)C	298	1	1.046	1	0	0	C[NH+]1CCCC1=O	[O-]C(=O)C
+656	CCCCCn1cc[n+](c1)C.[O-]C(=O)C	298	1	1.030	1	0	0	CCCCCn1cc[n+](c1)C	[O-]C(=O)C
+657	CCCn1cc[n+](c1)C.[O-]C(=O)C	298	1	1.080	1	0	0	CCCn1cc[n+](c1)C	[O-]C(=O)C
+665	CCCC[n+]1cccc(c1)C.N#C[N-]C#N	298	1	1.049	1	0	0	CCCC[n+]1cccc(c1)C	N#C[N-]C#N
+666	CCn1cc[n+](c1)C.N#C[N-]C#N	298	1	1.104	1	0	0	CCn1cc[n+](c1)C	N#C[N-]C#N
+667	CCCCCCn1cc[n+](c1)C.N#C[N-]C#N	298	1	1.029	1	0	0	CCCCCCn1cc[n+](c1)C	N#C[N-]C#N
+677	CCC[n+]1ccccc1.N#C[N-]C#N	298	1	1.090	1	0	0	CCC[n+]1ccccc1	N#C[N-]C#N
+691	CCCCCCCCn1cc[n+](c1)C.[Cl-]	298	1	1.010	1	0	0	CCCCCCCCn1cc[n+](c1)C	[Cl-]
+692	CCn1cc[n+](c1)C.[Cl-]	298	1	1.179	1	0	0	CCn1cc[n+](c1)C	[Cl-]
+693	CCCCCCn1cc[n+](c1)C.[Cl-]	298	1	1.040	1	0	0	CCCCCCn1cc[n+](c1)C	[Cl-]
+749	CCn1cc[n+](c1)C.FC(S(=O)(=O)[O-])(F)F	298	1	1.385	1	0	0	CCn1cc[n+](c1)C	FC(S(=O)(=O)[O-])(F)F
+750	CCCCCCn1cc[n+](c1)C.FC(S(=O)(=O)[O-])(F)F	298	1	1.238	1	0	0	CCCCCCn1cc[n+](c1)C	FC(S(=O)(=O)[O-])(F)F
+751	CCCC[n+]1cccc(c1)C.FC(S(=O)(=O)[O-])(F)F	298	1	1.284	1	0	0	CCCC[n+]1cccc(c1)C	FC(S(=O)(=O)[O-])(F)F
+755	CCCCCC[n+]1ccn(c1)CCC#N.FC(S(=O)(=O)[O-])(F)F	298	1	1.286	1	0	0	CCCCCC[n+]1ccn(c1)CCC#N	FC(S(=O)(=O)[O-])(F)F
+756	CCC[n+]1ncn(c1)C.FC(S(=O)(=O)[O-])(F)F	298	1	1.379	1	0	0	CCC[n+]1ncn(c1)C	FC(S(=O)(=O)[O-])(F)F
+778	CCCC[n+]1ccc(cc1)C.N#C[C-](C#N)C#N	298	1	1.036	1	0	0	CCCC[n+]1ccc(cc1)C	N#C[C-](C#N)C#N
+780	CCCCCCCCn1cc[n+](c1)C.N#C[C-](C#N)C#N	298	1	1.001	1	0	0	CCCCCCCCn1cc[n+](c1)C	N#C[C-](C#N)C#N
+782	CCCC[n+]1cccc(c1)C.N#C[C-](C#N)C#N	298	1	1.043	1	0	0	CCCC[n+]1cccc(c1)C	N#C[C-](C#N)C#N
+786	CCn1cc[n+](c1)C.[S-]C#N	298	1	1.117	1	0	0	CCn1cc[n+](c1)C	[S-]C#N
+787	CCCC[n+]1ccc(cc1)C.[S-]C#N	298	1	1.062	1	0	0	CCCC[n+]1ccc(cc1)C	[S-]C#N
+791	Cn1cc[n+](c1)C.[S-]C#N	298	1	1.158	1	0	0	Cn1cc[n+](c1)C	[S-]C#N
+796	CCCCCCn1cc[n+](c1)C.[S-]C#N	298	1	1.057	1	0	0	CCCCCCn1cc[n+](c1)C	[S-]C#N
+833	CCn1cc[n+](c1)C.N#C[B-](C#N)(C#N)C#N	298	1	1.035	1	0	0	CCn1cc[n+](c1)C	N#C[B-](C#N)(C#N)C#N
+834	CCCCCCn1cc[n+](c1)C.N#C[B-](C#N)(C#N)C#N	298	1	0.991	1	0	0	CCCCCCn1cc[n+](c1)C	N#C[B-](C#N)(C#N)C#N
+835	CCCCCCCCn1cc[n+](c1)C.N#C[B-](C#N)(C#N)C#N	298	1	0.975	1	0	0	CCCCCCCCn1cc[n+](c1)C	N#C[B-](C#N)(C#N)C#N
+860	CCCCCCCCCCn1cc[n+](c1)C.[O-]c1ccccc1	298	1	1.079	1	0	0	CCCCCCCCCCn1cc[n+](c1)C	[O-]c1ccccc1
+861	CCCCCCCCn1cc[n+](c1)C.[O-]c1ccccc1	298	1	1.130	1	0	0	CCCCCCCCn1cc[n+](c1)C	[O-]c1ccccc1
+862	CCCCCCn1cc[n+](c1)C.[O-]c1ccccc1	298	1	1.162	1	0	0	CCCCCCn1cc[n+](c1)C	[O-]c1ccccc1
+863	CCn1cc[n+](c1)C.[O-]c1ccccc1	298	1	1.278	1	0	0	CCn1cc[n+](c1)C	[O-]c1ccccc1
+868	CCn1cc[n+](c1)C.[O-]C(=O)C(O)C	298	1	1.164	1	0	0	CCn1cc[n+](c1)C	[O-]C(=O)C(O)C
+871	OCC[N+](C)(C)C.[O-]C(=O)C(N)C	298	1	1.113	1	0	0	OCC[N+](C)(C)C	[O-]C(=O)C(N)C
+872	C[NH+]1CCCC1=O.[O-]C(=O)CC	298	1	1.028	1	0	0	C[NH+]1CCCC1=O	[O-]C(=O)CC
+875	CCCn1cc[n+](c1)C.[O-]C(=O)CC	298	1	1.053	1	0	0	CCCn1cc[n+](c1)C	[O-]C(=O)CC
+888	CCn1cc[n+](c1)C.[O-]S(=O)(=O)C	298	1	1.242	1	0	0	CCn1cc[n+](c1)C	[O-]S(=O)(=O)C
+903	OCC[N+](C)(C)C.[O-]C(=O)C(CO)N	298	1	1.192	1	0	0	OCC[N+](C)(C)C	[O-]C(=O)C(CO)N
+904	CCCC[P+](CCCC)(CCCC)CCCC.[O-]C(=O)C(CO)N	298	1	0.992	1	0	0	CCCC[P+](CCCC)(CCCC)CCCC	[O-]C(=O)C(CO)N
+907	C[NH+]1CCCC1=O.[O-]C=O	298	1	1.072	1	0	0	C[NH+]1CCCC1=O	[O-]C=O
+914	OCC[N+](C)(C)C.[O-]C(=O)CCC	298	1	1.047	1	0	0	OCC[N+](C)(C)C	[O-]C(=O)CCC
+915	C[NH+]1CCCC1=O.[O-]C(=O)CCC	298	1	1.006	1	0	0	C[NH+]1CCCC1=O	[O-]C(=O)CCC
+929	CCn1cc[n+](c1)C.[O-]C(=O)C(N)C	298	1	1.130	1	0	0	CCn1cc[n+](c1)C	[O-]C(=O)C(N)C
+930	CCCCCCCCn1cc[n+](c1)C.[O-]C(=O)C(N)C	298	1	0.984	1	0	0	CCCCCCCCn1cc[n+](c1)C	[O-]C(=O)C(N)C
+969	COCC[N+](CC)(CC)C.FC(S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F)(F)F	298	1	1.408	1	0	0	COCC[N+](CC)(CC)C	FC(S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F)(F)F
+970	Cn1cc[n+](c1)C.FC(S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F)(F)F	298	1	1.570	1	0	0	Cn1cc[n+](c1)C	FC(S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F)(F)F
+996	CCC[n+]1ncn(c1)C.FC(S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F)(F)F	298	1	1.513	1	0	0	CCC[n+]1ncn(c1)C	FC(S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F)(F)F
+1087	COCC[N+](CC)(CC)C.FC([B-](F)(F)F)(F)F	298	1	1.236	1	0	0	COCC[N+](CC)(CC)C	FC([B-](F)(F)F)(F)F
+1088	Cn1cc[n+](c1)C.COS(=O)(=O)[O-]	298	1	1.329	1	0	0	Cn1cc[n+](c1)C	COS(=O)(=O)[O-]
+1089	CCn1cc[n+](c1)C.COS(=O)(=O)[O-]	298	1	1.284	1	0	0	CCn1cc[n+](c1)C	COS(=O)(=O)[O-]
+1141	CCCCCCn1cc[n+](c1)C.[n-]1ccnn1	298	1	1.042	1	0	0	CCCCCCn1cc[n+](c1)C	[n-]1ccnn1
+1154	CCCCCCn1cc[n+](c1)C.[O-][N+](=O)c1cn[n-]c1	298	1	1.123	1	0	0	CCCCCCn1cc[n+](c1)C	[O-][N+](=O)c1cn[n-]c1
+1162	CCCn1cc[n+](c1C)C.[O-][N+](=O)c1cn[n-]c1	298	1	1.182	1	0	0	CCCn1cc[n+](c1C)C	[O-][N+](=O)c1cn[n-]c1
+1172	CCCCCCCC[P+](CC)(CC)CC.[O-][N+](=O)c1cn[n-]c1	298	1	1.031	1	0	0	CCCCCCCC[P+](CC)(CC)CC	[O-][N+](=O)c1cn[n-]c1
+1226	CCCCn1cc[n+](c1)C.COS(=O)(=O)[O-]	298	1	1.209	1	0	0	CCCCn1cc[n+](c1)C	COS(=O)(=O)[O-]
+1229	CCCCCCn1cc[n+](c1)C.COS(=O)(=O)[O-]	298	1	1.185	1	0	0	CCCCCCn1cc[n+](c1)C	COS(=O)(=O)[O-]
+1230	CCCCCCCCn1cc[n+](c1)C.COS(=O)(=O)[O-]	298	1	1.121	1	0	0	CCCCCCCCn1cc[n+](c1)C	COS(=O)(=O)[O-]
+1233	CCCC[N+]1(C)CCCC1.COS(=O)(=O)[O-]	298	1	1.167	1	0	0	CCCC[N+]1(C)CCCC1	COS(=O)(=O)[O-]
+1239	CCn1cc[n+](c1)C.CCOS(=O)(=O)[O-]	298	1	1.237	1	0	0	CCn1cc[n+](c1)C	CCOS(=O)(=O)[O-]
+1247	CC[n+]1ccccc1.CCOS(=O)(=O)[O-]	298	1	1.252	1	0	0	CC[n+]1ccccc1	CCOS(=O)(=O)[O-]
+1248	CCCCn1cc[n+](c1)C.CCOS(=O)(=O)[O-]	298	1	1.237	1	0	0	CCCCn1cc[n+](c1)C	CCOS(=O)(=O)[O-]
+1249	CCCCCCn1cc[n+](c1)C.CCOS(=O)(=O)[O-]	298	1	1.178	1	0	0	CCCCCCn1cc[n+](c1)C	CCOS(=O)(=O)[O-]
+1277	CCn1cc[n+](c1)C.[O-]S(=O)(=O)O	298	1	1.366	1	0	0	CCn1cc[n+](c1)C	[O-]S(=O)(=O)O
+1279	CCCCn1cc[n+](c1)C.[O-]S(=O)(=O)O	298	1	1.255	1	0	0	CCCCn1cc[n+](c1)C	[O-]S(=O)(=O)O
+1282	CCCCn1cc[n+](c1C)C.[O-]S(=O)(=O)O	298	1	1.211	1	0	0	CCCCn1cc[n+](c1C)C	[O-]S(=O)(=O)O
+1286	Cn1c[nH+]cc1.[O-]S(=O)(=O)O	298	1	1.459	1	0	0	Cn1c[nH+]cc1	[O-]S(=O)(=O)O
+1300	CCCn1cc[n+](c1)C.[O-]P(=O)(O)O	298	1	1.196	1	0	0	CCCn1cc[n+](c1)C	[O-]P(=O)(O)O
+1301	CCCCCn1cc[n+](c1)C.[O-]P(=O)(O)O	298	1	1.142	1	0	0	CCCCCn1cc[n+](c1)C	[O-]P(=O)(O)O
+1302	CCCCn1cc[n+](c1)C.[O-]P(=O)(O)O	298	1	1.177	1	0	0	CCCCn1cc[n+](c1)C	[O-]P(=O)(O)O
+1322	CCCCCC[n+]1ccn(c1)CCC#N.CCCCCCCCCCCCOS(=O)(=O)[O-]	298	1	1.098	1	0	0	CCCCCC[n+]1ccn(c1)CCC#N	CCCCCCCCCCCCOS(=O)(=O)[O-]
