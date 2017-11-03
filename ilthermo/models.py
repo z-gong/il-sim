@@ -35,6 +35,9 @@ class Paper(Base):
 
     datas = relationship('Data', lazy='dynamic')
 
+    def __repr__(self):
+        return '<Paper: %i %s>' % (self.id, self.author)
+
 
 class DataSet(Base):
     __tablename__ = 'dataset'
@@ -131,18 +134,48 @@ class Molecule(Base):
             return
 
         z = np.polyfit(T_list, density_list, 2)
-        json_dict = {'density': [z[0], z[1], z[2], min(T_list), max(T_list)]}
-        self.fit = json.dumps(json_dict)
+        density_json_dict = {'density': [z[0], z[1], z[2], min(T_list), max(T_list)]}
+
+        fit_json_dict = {}
+        if self.fit != None:
+            fit_json_dict = json.loads(self.fit)
+        fit_json_dict.update(density_json_dict)
+
+        self.fit = json.dumps(fit_json_dict)
         session.commit()
 
-    def get_density(self, T=298):
+    def fit_st(self):
+        T_list = []
+        st_list = []
+        st_datas = self.datas.join(Property).filter(Property.name == 'Surface tension liquid-gas')
+        for data in st_datas:
+            T_list.append(data.t)
+            st_list.append(data.value)
+        if len(T_list) < 5:
+            return
+
+        z = np.polyfit(T_list, st_list, 2)
+        st_json_dict = {'st': [z[0], z[1], z[2], min(T_list), max(T_list)]}
+
+        fit_json_dict = {}
+        if self.fit != None:
+            fit_json_dict = json.loads(self.fit)
+        fit_json_dict.update(st_json_dict)
+
+        self.fit = json.dumps(fit_json_dict)
+        session.commit()
+
+    def get_property(self, prop, T=298):
         try:
             json_dict = json.loads(self.fit)
         except:
             return None
 
-        a, b, c, Tmin, Tmax = json_dict['density']
-        if T < Tmin - 3 or T > Tmax + 3:
+        if prop not in json_dict.keys():
+            return None
+
+        a, b, c, Tmin, Tmax = json_dict[prop]
+        if T < Tmin - 5 or T > Tmax + 5:
             return None
 
         return a * T * T + b * T + c
