@@ -8,7 +8,7 @@ from sqlalchemy import Column, Integer, Float, Text, Boolean, String, ForeignKey
 Base = declarative_base()
 metadata = Base.metadata
 
-db_file = 'sqlite:///ilthermo.db'
+db_file = 'sqlite:///ilthermo.db?check_same_thread=False'
 
 engine = create_engine(db_file, echo=False)
 Session = sessionmaker(engine)
@@ -58,6 +58,9 @@ class Ion(Base):
     iupac = Column(Text)
     formula = Column(Text)
     validated = Column(Boolean, default=False)
+    category = Column(Text)
+    popular = Column(Boolean, default=False)
+    times = Column(Integer)
 
     molecules_cation = relationship('Molecule', lazy='dynamic', foreign_keys='Molecule.cation_id')
     molecules_anion = relationship('Molecule', lazy='dynamic', foreign_keys='Molecule.anion_id')
@@ -113,6 +116,7 @@ class Molecule(Base):
     selected = Column(Boolean, default=False)
     smiles = Column(Text)
     fit = Column(Text)
+    popular = Column(Boolean, default=False)
 
     cation = relationship('Ion', foreign_keys='Molecule.cation_id')
     anion = relationship('Ion', foreign_keys='Molecule.anion_id')
@@ -125,9 +129,10 @@ class Molecule(Base):
     def fit_density(self):
         T_list = []
         density_list = []
-        density_datas = self.datas.join(Property).filter(Property.name == 'Density')
+        density = session.query(Property).filter(Property.name == 'Density').first()
+        density_datas = self.datas.filter(Data.property == density).filter(Data.phase == 'Liquid')
         for data in density_datas:
-            if data.p is None or (data.p >= 100 and data.p <= 110):
+            if data.p == None or data.p < 200:
                 T_list.append(data.t)
                 density_list.append(data.value)
         if len(T_list) < 5:
@@ -179,6 +184,20 @@ class Molecule(Base):
             return None
 
         return a * T * T + b * T + c
+
+    def get_property_Tmin(self, prop):
+        try:
+            json_dict = json.loads(self.fit)
+        except:
+            return None, None
+
+        if prop not in json_dict.keys():
+            return None, None
+
+        a, b, c, Tmin, Tmax = json_dict[prop]
+        T = Tmin
+
+        return T, a * T * T + b * T + c
 
 
 class Data(Base):
