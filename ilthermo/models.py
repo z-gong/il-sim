@@ -52,14 +52,14 @@ class Ion(Base):
     charge = Column(Integer)
     name = Column(Text, unique=True)
     searched = Column(Boolean)
+    popular = Column(Boolean, default=False)
     selected = Column(Boolean, default=False)
     smiles = Column(Text)
-    cid = Column(Integer)
     iupac = Column(Text)
-    formula = Column(Text)
-    validated = Column(Boolean, default=False)
+    ignored = Column('validated', Boolean, default=False)
+    duplicate = Column(Integer)
     category = Column(Text)
-    popular = Column(Boolean, default=False)
+    n_paper = Column(Integer)
     times = Column(Integer)
 
     molecules_cation = relationship('Molecule', lazy='dynamic', foreign_keys='Molecule.cation_id')
@@ -79,8 +79,11 @@ class Ion(Base):
             return self.molecules_anion
 
     @property
-    def n_heavy_atoms(self):
-        py_mol = pybel.readstring('smi', self.smiles)
+    def n_heavy(self):
+        try:
+            py_mol = pybel.readstring('smi', self.smiles)
+        except:
+            raise Exception('Smiles not valid')
         return py_mol.OBMol.NumHvyAtoms()
 
     def update_smiles_from_pubchem(self):
@@ -113,10 +116,9 @@ class Molecule(Base):
     cation_id = Column(Integer, ForeignKey(Ion.id))
     anion_id = Column(Integer, ForeignKey(Ion.id))
     formula = Column(Text)
-    selected = Column(Boolean, default=False)
-    smiles = Column(Text)
-    fit = Column(Text)
     popular = Column(Boolean, default=False)
+    selected = Column(Boolean, default=False)
+    fit = Column(Text)
 
     cation = relationship('Ion', foreign_keys='Molecule.cation_id')
     anion = relationship('Ion', foreign_keys='Molecule.anion_id')
@@ -125,79 +127,6 @@ class Molecule(Base):
 
     def __repr__(self):
         return '<Molecule: %i %s>' % (self.id, self.name)
-
-    def fit_density(self):
-        T_list = []
-        density_list = []
-        density = session.query(Property).filter(Property.name == 'Density').first()
-        density_datas = self.datas.filter(Data.property == density).filter(Data.phase == 'Liquid')
-        for data in density_datas:
-            if data.p == None or data.p < 200:
-                T_list.append(data.t)
-                density_list.append(data.value)
-        if len(T_list) < 5:
-            return
-
-        z = np.polyfit(T_list, density_list, 2)
-        density_json_dict = {'density': [z[0], z[1], z[2], min(T_list), max(T_list)]}
-
-        fit_json_dict = {}
-        if self.fit != None:
-            fit_json_dict = json.loads(self.fit)
-        fit_json_dict.update(density_json_dict)
-
-        self.fit = json.dumps(fit_json_dict)
-        session.commit()
-
-    def fit_st(self):
-        T_list = []
-        st_list = []
-        st_datas = self.datas.join(Property).filter(Property.name == 'Surface tension liquid-gas')
-        for data in st_datas:
-            T_list.append(data.t)
-            st_list.append(data.value)
-        if len(T_list) < 5:
-            return
-
-        z = np.polyfit(T_list, st_list, 2)
-        st_json_dict = {'st': [z[0], z[1], z[2], min(T_list), max(T_list)]}
-
-        fit_json_dict = {}
-        if self.fit != None:
-            fit_json_dict = json.loads(self.fit)
-        fit_json_dict.update(st_json_dict)
-
-        self.fit = json.dumps(fit_json_dict)
-        session.commit()
-
-    def get_property(self, prop, T=298):
-        try:
-            json_dict = json.loads(self.fit)
-        except:
-            return None
-
-        if prop not in json_dict.keys():
-            return None
-
-        a, b, c, Tmin, Tmax = json_dict[prop]
-        if T < Tmin - 5 or T > Tmax + 5:
-            return None
-
-        return a * T * T + b * T + c
-
-    def get_property_Tmin(self, prop):
-        try:
-            json_dict = json.loads(self.fit)
-        except:
-            return None, None
-
-        if prop not in json_dict.keys():
-            return None, None
-
-        a, b, c, Tmin, Tmax = json_dict[prop]
-        T = Tmin
-
-        return T, a * T * T + b * T + c
 
 
 class Data(Base):
