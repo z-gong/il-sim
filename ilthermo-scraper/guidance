@@ -1,0 +1,21 @@
+We need to get the translation table in the beginning:
+
+http://ilthermo.boulder.nist.gov/ILT2/ilprpls
+
+And get the code for each peoperty;
+
+First we visit the url below:
+
+%name%: component name to search;
+%prp%: property code (from code sheet above);
+
+http://ilthermo.boulder.nist.gov/ILT2/ilsearch?cmp=%name%&ncmp=0&year=&auth=&keyw=&prp=bvSs
+
+Then we get the code for each paper
+
+%paper%: code for paper;
+
+And search the path for data:
+
+http://ilthermo.boulder.nist.gov/ILT2/ilset?set=%paper%
+
