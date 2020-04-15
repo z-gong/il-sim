@@ -7,8 +7,10 @@ mols = session.query(Molecule)
 mols_selected = mols.filter(Molecule.selected == True)
 
 density = session.query(Property).filter(Property.name == 'Density').first()
-hvap = session.query(Property).get(16)
 viscosity = session.query(Property).filter(Property.name == 'Viscosity').first()
+cp = session.query(Property).filter(Property.name == 'Heat capacity at constant pressure').first()
+diffusion = session.query(Property).filter(Property.name == 'Self-diffusion coefficient').first()
+hvap = session.query(Property).filter(Property.name == 'Enthalpy of vaporization or sublimation').first()
 
 
 def print_value(mol, T, P, val):
@@ -17,40 +19,12 @@ def print_value(mol, T, P, val):
         mol.cation.category, mol.anion.category, mol.name.replace(' ', '_')))
 
 
-def get_density_fitted(Tden):
-    for mol in mols_selected:
-        den = mol.get_property('density', T=Tden)
-        if den != None:
-            print_value(mol, Tden, 1, den / 1000)
-
-    print('')
-    for mol in mols_selected:
-        den = mol.get_property('density', T=Tden)
-        if den == None:
-            T, den = mol.get_property_Tmax('density')
-            if T != None:
-                print_value(mol, T, 1, den / 1000)
-
-    print('')
-    for mol in mols_selected:
-        den = mol.get_property('density', T=Tden)
-        if den == None:
-            T, den = mol.get_property_Tmax('density')
-            if T == None:
-                datas = mol.datas.filter(Data.property == density).filter(Data.phase == 'Liquid').all()
-                datas.sort(key=lambda x: abs(x.t - Tden))
-                if datas != []:
-                    data = datas[0]
-                    print_value(mol, int(data.t), int((data.p or 100) / 100), data.value / 1000)
-
-
 def get_hvap():
     for mol in mols_selected:
         datas = mol.datas.filter(Data.property == hvap).order_by(Data.t).all()
         if datas != []:
             data = datas[0]
             print_value(mol, int(data.t), 0, data.value)
-
 
 
 def get_density(T):
@@ -65,6 +39,7 @@ def get_density(T):
             P = int(data.p / 100) if data.p != None else 1
             print_value(mol, int(data.t), P, data.value / 1000)
 
+
 def get_viscosity(T):
     for mol in mols_selected:
         datas = mol.datas.filter(Data.property == viscosity) \
@@ -78,7 +53,35 @@ def get_viscosity(T):
             print_value(mol, int(data.t), P, data.value * 1000)
 
 
+def get_cp(T):
+    for mol in mols_selected:
+        datas = mol.datas.filter(Data.property == cp) \
+            .filter(Data.phase == 'Liquid') \
+            .filter(or_(Data.p == None, Data.p < 200)) \
+            .all()
+        datas.sort(key=lambda x: abs(x.t - T))
+        if datas != []:
+            data = datas[0]
+            P = int(data.p / 100) if data.p != None else 1
+            print_value(mol, int(data.t), P, data.value)
+
+
+def get_diffusion(T):
+    for mol in mols_selected:
+        datas = mol.datas.filter(Data.property == diffusion) \
+            .filter(Data.phase == 'Liquid') \
+            .filter(or_(Data.p == None, Data.p < 200)) \
+            .all()
+        datas.sort(key=lambda x: abs(x.t - T))
+        if datas != []:
+            data = datas[0]
+            P = int(data.p / 100) if data.p != None else 1
+            print_value(mol, int(data.t), P, data.value)
+
+
 if __name__ == '__main__':
     get_density(343)
-    get_hvap()
     # get_viscosity(343)
+    # get_cp(343)
+    # get_diffusion(343)
+    # get_hvap()
